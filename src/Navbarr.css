@@ -1,0 +1,17 @@
+.logo{
+    width: 200px;
+    height: 30px;
+}
+.container{
+    background-color: black;
+}
+.navv{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+.no{
+    text-decoration: none;
+    color: beige;
+}

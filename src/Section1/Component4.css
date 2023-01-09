@@ -1,0 +1,10 @@
+@media screen and (min-width: 425px) and (max-width: 767px){
+    .h11{
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 400;
+        color: grey;
+        text-align: center;
+    
+        }
+}

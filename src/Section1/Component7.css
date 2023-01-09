@@ -1,0 +1,274 @@
+.flex01{
+    display: flex;
+}
+.parent{
+    background-color: #0e4454;
+    padding: 10px;
+
+}
+.parent1{
+    display: flex;
+    justify-content: space-around;
+    padding: 85px 85px;
+}
+.Input{
+    display: grid;
+    gap: 50px;
+}
+.inTouch {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    padding-top: 30px;
+    margin-right: auto;
+    
+  }
+
+  .inputName {
+    width: 535px;
+    padding: 10px 0;
+    border: 0.7px solid #ffffff;
+    border-radius: 5px;
+    background-color: #0e4454;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+  .inputEmail {
+    width: 535px;
+    padding: 10px 0;
+    border: 0.7px solid #ffffff;
+    border-radius: 5px;
+    background-color: #0e4454;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+  .inputText {
+    width: 535px;
+    padding: 10px 0;
+    border: 0.7px solid #ffffff;
+    border-radius: 5px;
+    background-color: #0e4454;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+
+  .Btnsend {
+    width: 207px;
+    height: 46px;
+    padding-left: 12px;
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 5px;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    border: 0.7px solid #FFFFFF;
+  }
+  .Btnsend:hover{
+      opacity: 0.8;
+      background: rgba(10, 10, 10, 0.2);
+  }
+  .flex01>h5{
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+  }
+  .Cont {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .child>p{
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    width: 38ch;
+    padding-bottom: 23px
+  }
+  
+  .Line {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 60%;
+    opacity: 0.5;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 840px){
+    .inputText {
+        width: 450px;
+        padding: 10px 0;
+        border: 0.7px solid #ffffff;
+        border-radius: 5px;
+        background-color: #0e4454;
+        color: white;
+        font-size: 20px;
+        padding-left: 15px;
+        box-sizing: border-box;
+      }
+      .inputName {
+        width: 450px;
+        padding: 10px 0;
+        border: 0.7px solid #ffffff;
+        border-radius: 5px;
+        background-color: #0e4454;
+        color: white;
+        font-size: 20px;
+        padding-left: 15px;
+        box-sizing: border-box;
+      }
+      .inputEmail {
+        width: 450px;
+        padding: 10px 0;
+        border: 0.7px solid #ffffff;
+        border-radius: 5px;
+        background-color: #0e4454;
+        color: white;
+        font-size: 20px;
+        padding-left: 15px;
+        box-sizing: border-box;
+      }
+   
+    }
+    @media screen and (min-width: 425px) and (max-width: 767px){
+        .parent1{
+            display: block;
+            justify-content: space-around;
+            padding: 85px 85px;
+        }
+
+        .inputText {
+            width: 300px;
+            padding: 10px 0;
+            border: 0.7px solid #ffffff;
+            border-radius: 5px;
+            background-color: #0e4454;
+            color: white;
+            font-size: 20px;
+            padding-left: 15px;
+            box-sizing: border-box;
+          }
+          .inputName {
+            width: 300px;
+            padding: 10px 0;
+            border: 0.7px solid #ffffff;
+            border-radius: 5px;
+            background-color: #0e4454;
+            color: white;
+            font-size: 20px;
+            padding-left: 15px;
+            box-sizing: border-box;
+          }
+          .inputEmail {
+            width: 300px;
+            padding: 10px 0;
+            border: 0.7px solid #ffffff;
+            border-radius: 5px;
+            background-color: #0e4454;
+            color: white;
+            font-size: 20px;
+            padding-left: 15px;
+            box-sizing: border-box;
+          }
+          .Cont {
+            font-family: "Source Sans Pro";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 24px;
+            color: #ffffff;
+          }
+    }
+    @media screen and (min-width: 320px) and (max-width: 424px){
+        .parent1{
+            display: block;
+            justify-content: space-around;
+            padding: 85px 85px;
+        }
+
+        .inputText {
+            width: 210px;
+            padding: 10px 0;
+            border: 0.7px solid #ffffff;
+            border-radius: 5px;
+            background-color: #0e4454;
+            color: white;
+            font-size: 20px;
+            padding-left: 15px;
+            box-sizing: border-box;
+          }
+          .inputName {
+            width: 210px;
+            padding: 10px 0;
+            border: 0.7px solid #ffffff;
+            border-radius: 5px;
+            background-color: #0e4454;
+            color: white;
+            font-size: 20px;
+            padding-left: 15px;
+            box-sizing: border-box;
+          }
+          .inputEmail {
+            width: 210px;
+            padding: 10px 0;
+            border: 0.7px solid #ffffff;
+            border-radius: 5px;
+            background-color: #0e4454;
+            color: white;
+            font-size: 20px;
+            padding-left: 15px;
+            box-sizing: border-box;
+          }
+          .Cont {
+            font-family: "Source Sans Pro";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 25px;
+            color: #ffffff;
+          } 
+          .flex01>h5{
+            font-family: "Source Sans Pro";
+            font-style: small;
+            font-weight: 80;
+            font-size: 14px;
+            line-height: 25px;
+            color: #ffffff;
+          }
+          .child>p{
+            font-family: "Source Sans Pro";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #ffffff;
+            width: 25ch;
+            padding-bottom: 23px;
+            text-align: center;
+    
+          }
+     
+    }

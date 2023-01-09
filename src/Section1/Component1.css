@@ -1,0 +1,41 @@
+.profilePhoto{
+    width: 500px;
+    height: 500px;
+    border-radius: 360px;
+    border: 2px solid white;
+}
+
+.h11{
+font-size: 50px;
+font-style: italic;
+font-weight: 400;
+color: grey;
+}
+.arrow{
+    width: 20px;
+}
+.pp{
+    margin-top: 40px;
+    color: grey;
+}
+
+.h22{
+    font-style: oblique;
+    margin-top: 30px;
+    color: grey;
+}
+
+.div01{
+    /* background-color: lightblue; */
+    padding: 100px;
+    background-image: url(/src/images/Colored\ Shapes.svg);
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 840px){
+    .div01{
+        /* background-color: lightblue; */
+        padding: 100px;
+        background-image: url(/src/images/Colored\ Shapes.svg);
+    }
+}

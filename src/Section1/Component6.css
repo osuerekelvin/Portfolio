@@ -1,0 +1,113 @@
+.about{
+    /* width: 80%; */
+    margin: 0 100px;
+    text-align: center;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.about1{
+    background-color: rgb(130, 147, 104);
+    padding: 100px;
+    
+}
+
+.profilee{
+   
+        width: 400px;
+        height: 300px;
+        border-radius: 5px;
+        /* border: 2px solid white; */
+    
+}
+.about_flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    max-width: 100%;
+    margin-left: 150px;
+}
+@media screen and (min-width: 768px) and (max-width: 971px){
+    .about_flex{
+        display: block;
+        justify-content: unset;
+        gap: 80px;
+        max-width: 80%;
+        margin-left: 150px;
+    
+    }
+
+    .profilee{
+   
+        width: 400px;
+        height: 300px;
+        border-radius: 5px;
+        /* border: 2px solid white; */
+        margin-bottom: 30px;
+    
+}
+.about1{
+    background-color: rgb(130, 147, 104);
+    padding: 10px;
+    
+}
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+    .profilee{
+   
+        width: 300px;
+        height: 200px;
+        border-radius: 5px;
+        /* border: 2px solid white; */
+        margin-bottom: 30px;
+ 
+
+    }
+.about_flex{
+    display: block;
+    justify-content: unset;
+    
+    max-width: 100%;
+    margin-left: unset;
+
+}
+
+}
+@media screen and (min-width: 320px) and (max-width: 424px){
+    .profilee{
+   
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        /* border: 2px solid white; */
+        margin-bottom: 30px;
+ 
+
+    }
+.about_flex{
+    display: block;
+    justify-content: unset;
+    
+    max-width: 100%;
+    margin-left: unset;
+
+}
+.h1111{
+    font-family: "Contrail One";
+    font-style: smaller;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 19px;
+    color: #000000;
+    text-align: center;
+
+}
+.about1{
+    background-color: rgb(130, 147, 104);
+    padding: 50px;
+    
+}
+}
